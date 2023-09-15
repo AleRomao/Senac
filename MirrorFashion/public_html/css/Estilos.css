@@ -118,11 +118,11 @@ body{
         background-color: #DCDCF5;
     }
     footer {
-        background-image: url(img/fundo-rodape.png);
+        background-image: url(../img/fundo-rodape.png);
         clear: both;
         padding: 20px 0;
     }
-    footer.container {
+    footer .container {
         position: relative;
     }
     .social {
@@ -140,12 +140,40 @@ body{
         display: block;
         text-indent: -9999px;
     }
-    .social a [href*="facebook.com"]{
-        background-image: url(img/facebook.png);
+    .social a[href*="facebook.com"]{
+        background-image: url(../img/facebook.png);
     }
-    .social a [href*="twitter.com"]{
-        background-image: url(img/twitter.png);
+    .social a[href*="twitter.com"]{
+        background-image: url(../img/twitter.png);
     }
-    .social a [href*="plus.google.com"]{
-        background-image: url(img/googleplus.png);
+    .social a[href*="plus.google.com"]{
+        background-image: url(../img/googleplus.png);
+    }
+    .menu-opcoes a:hover {
+        color: #007DC6;
+    }
+    .menu-opcoes a:active {
+        color: #7CFC00;
+    }
+    .menu-departamentos li ul {
+        display: none;
+    }
+    .menu-departamentos li:hover ul {
+        display: block;
+    }
+    .menu-departamentos ul ul li {
+        background-color: #DCDCDC;
+    }
+    .menu-departamentos li li a:before {
+        content: "- ";
+    }
+    .busca button {
+        background-image: url(../img/busca.png);
+        background-repeat: no-repeat;
+        border: none;
+        
+        width: 20px;
+        height: 20px;
+        
+        text-indent: -9999px;
     }
