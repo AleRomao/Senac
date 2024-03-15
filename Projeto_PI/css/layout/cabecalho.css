@@ -1,0 +1,12 @@
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    /* Outros estilos... */
+}
+
+    .form-control {
+        border-radius: 10px 10px;
+    }
